@@ -45,7 +45,7 @@ class _SlidingBoxExamplePageState extends State<SlidingBoxExamplePage> {
               ? textEditingController.value.text
               : "Empty",
           style: TextStyle(
-              color: Theme.of(context).colorScheme.onBackground, fontSize: 20),
+              color: Theme.of(context).colorScheme.onSurface, fontSize: 20),
         ),
       ));
     });
